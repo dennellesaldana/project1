@@ -1,0 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Roboto:wght@300&display=swap');
+.big-text{
+  font-size: 70px;
+}
+body{
+  background-image:  url(z.jpg);
+  background-size: cover;
+}
+.d {
+  text-align: justify;
+}
