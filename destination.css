@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Nunito+Sans:wght@900&family=Oswald:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 span{
+    color: rgb(163, 54, 20);
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 700;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    background-image:  url(abs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.card{
+    width: 320px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid white;
+    position: relative;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position:absolute;
+    backdrop-filter: blur(5px);
+    border-radius:15px;
+    padding:30px;
+    transition: 2s;
+    color:black;
+}
+.card:hover .card-body{
+    right: 0;
+
+}
+.card-tittle{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-sub-tittle{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.card-info {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+.card-btn{
+    color: rgb(72, 72, 88);
+    background: rgb(83, 70, 143);
+    padding: 10px 20px;
+    width: 120px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
